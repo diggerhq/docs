@@ -4,7 +4,7 @@ Digger is an open-source alternative to Terraform Cloud. It makes it easy to run
 
 ## What's so hard about it?
 
-Can't I just run run it in my action as-is? Why do I need another tool?
+Can't I just run it in my action as-is? Why do I need another tool?
 
 Great question! You can; but you probably [don't want to](https://itnext.io/pains-in-terraform-collaboration-249a56b4534e).
 

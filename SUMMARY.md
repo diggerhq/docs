@@ -20,6 +20,7 @@
   * [Using Infracost](configuration/using-infracost.md)
   * [Using OPA (Conftest)](configuration/using-opa-conftest.md)
   * [Commenting stragegies](configuration/commenting-stragegies.md)
+  * [Terragrunt project generation](configuration/terragrunt-project-generation.md)
 * [Features](docs/features/README.md)
   * [Projects](docs/features/projects.md)
   * [Workspaces](docs/features/workspaces.md)

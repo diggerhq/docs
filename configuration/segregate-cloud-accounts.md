@@ -10,12 +10,6 @@ These all can even be different cloud providers - eg digger locks in AWS, state 
 
 We rely on terraform expecting particular environment variables when authorising with cloud providers.
 
-{% hint style="info" %}
-This feature is under active development - [pull request](https://github.com/diggerhq/digger/pull/209)\
-It is not yet available in a stable release.\
-To use it as-is, [configure Digger to run off a branch](https://docs.digger.dev/configuration/versioning)
-{% endhint %}
-
 Let's consider example where
 
 1. Digger locks are in one aws account

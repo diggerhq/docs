@@ -39,6 +39,10 @@ Go to **subscription** in the portal and select your subscription ID, select **A
 * Add a secret named ARM\_SUBSCRIPTION\_ID with the value of your Subscription ID from above
 * Add a secret named DIGGER\_AZURE\_CONNECTION\_STRING with the value of your Connection String from Step 1
 
+{% hint style="info" %}
+In your repository settings > Actions ensure that the Workflow Read and Write permissions are assigned. This will allow the workflow to post comments on your PRs.
+{% endhint %}
+
 ## 4. Create digger.yml file
 
 In your repository, create `digger.yml` file with the following contents:

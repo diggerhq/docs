@@ -25,11 +25,7 @@ Take note of
 * Directory (Tenant) ID
 * Application (Client) ID
 
-Go to Certificates and Secrets
-
-Click New Client Secret. Give it a name; click Add.
-
-Take not of Secret Value.
+Go to Certificates and Secrets. Click New Client Secret. Give it a name; click Add. Take note of the Secret Value.
 
 Go to **subscription** in the portal and select your subscription ID, select **Access Control (IAM)** and **Add** the **Role assignment**, **Contributor** to your Service Principal. Take note of your subscription ID value
 

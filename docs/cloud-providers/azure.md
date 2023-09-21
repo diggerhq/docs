@@ -27,7 +27,7 @@ Take note of
 
 Go to Certificates and Secrets. Click New Client Secret. Give it a name; click Add. Take note of the Secret Value.
 
-Go to **subscription** in the portal and select your subscription ID, select **Access Control (IAM)** and **Add** the **Role assignment**, **Contributor** to your Service Principal. Take note of your subscription ID value
+Go to **subscription** in the portal and select your subscription ID, select **Access Control (IAM)** and **Add** the **Role assignment**, **Contributor** to your Service Principal. Take note of your Subscription ID value
 
 ### In Github
 
@@ -36,7 +36,7 @@ Go to **subscription** in the portal and select your subscription ID, select **A
 * Add a secret named ARM\_CLIENT\_ID with the value of your Application (Client) ID from above
 * Add a secret named ARM\_TENANT\_ID with the value of your Directory (Tenant) ID from above
 * Add a secret named ARM\_CLIENT\_SECRET with the value of your Client Secret from above
-* Add a secret named ARM\_SUBSCRIPTION\_ID with the value of your Client Secret from above
+* Add a secret named ARM\_SUBSCRIPTION\_ID with the value of your Subscription ID from above
 * Add a secret named DIGGER\_AZURE\_CONNECTION\_STRING with the value of your Connection String from Step 1
 
 ## 4. Create digger.yml file
